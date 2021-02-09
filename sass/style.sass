@@ -1,0 +1,47 @@
+@import 'header'
+@import 'medias'
+@import 'req'
+@import 'modal'
+@import 'features'
+@import 'products'
+
+body
+	font-family: 'Roboto', sans-serif
+	margin: 0
+
+img
+	max-width: 100%
+
+button:active, button:focus 
+ outline: none
+
+input:active, input:focus 
+ outline: none
+
+button::-moz-focus-inner 
+ border: 0
+
+.orange-button
+	border: none
+	background-color: #ff9d00
+ color: #fff
+ border-radius: 5px
+ transition: 0.2s
+	&:hover
+	 background-color: lighten(#ff9d00, 5)
+	&:active
+	 background-color: darken(#ff9d00, 10)
+
+.grey-button
+	border: 1px solid rgba(#373737, 0.5)
+	background-color: #fff
+ color: rgba(#373737, 0.5)
+ border-radius: 5px
+ transition: 0.2s
+ &:hover
+	 background-color: lighten(#ff9d00, 5)
+	&:active
+	 background-color: darken(#ff9d00, 10)
+
+.wow
+	visibility: hidden 
